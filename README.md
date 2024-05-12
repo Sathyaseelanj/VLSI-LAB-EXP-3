@@ -1,4 +1,4 @@
-SIMULATION AND IMPLEMENTATION OF MULTIPLIER
+**SIMULATION AND IMPLEMENTATION OF MULTIPLIER**
 
 **AIM:**
  To simulate and synthesis multiplier using Xilinx ISE.
@@ -26,11 +26,9 @@ STEP:11  On the board, by giving required input, the LEDs starts to glow light, 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-3/assets/6987778/7713750f-65e6-41c0-8082-5005eac4031c)
 
 **Verilog code**:
-
+~~~
 module ha(a,b,sum,carry);
-
 input a,b;
-
 output sum,carry;
 
 xor g1(sum,a,b);
@@ -62,7 +60,7 @@ ha adder1(w1,w2,p[1],w4);
 ha adder2(w3,w4,p[2],cout);
 
 endmodule
-
+~~~
 
 **Output Waveform**:
 
